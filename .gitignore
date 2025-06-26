@@ -4,7 +4,22 @@
 #ignore node modules
 node_modules/
 
-#ignore files
-public 
-
 #ignore 
+public 
+server
+eslint.config.js
+components.json
+package-lock.json
+package.json
+postcss.config.js
+README.md
+tailwind.config.js
+test-config.mjs
+tsconfig.app.json
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+database
+model
+server
+uploads
