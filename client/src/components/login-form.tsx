@@ -42,7 +42,7 @@ export function LoginForm({ mode, className, ...props }: AuthModeProps) {
           password,
         });
         localStorage.setItem("token", response.data.token);
-        navigate("/dashboard");
+        // navigate("/dashboard");
       }
     } catch (err: any) {
       setError(
@@ -111,14 +111,6 @@ export function LoginForm({ mode, className, ...props }: AuthModeProps) {
                 >
                   Password
                 </Label>
-                {mode === "login" && (
-                  <a
-                    href="#"
-                    className="ml-auto text-sm underline-offset-2 hover:underline"
-                  >
-                    Forgot your password?
-                  </a>
-                )}
               </div>
               <Input
                 id="password"
