@@ -1,0 +1,88 @@
+{
+  "../../../@crx/manifest": {
+    "file": "assets/crx-manifest.js-CMko2fPH.js",
+    "name": "crx-manifest.js",
+    "src": "../../../@crx/manifest",
+    "isEntry": true
+  },
+  "_AuthForm-De7KLju5.js": {
+    "file": "assets/AuthForm-De7KLju5.js",
+    "name": "AuthForm",
+    "imports": [
+      "index.html",
+      "_api-BGffLuxB.js"
+    ]
+  },
+  "_api-BGffLuxB.js": {
+    "file": "assets/api-BGffLuxB.js",
+    "name": "api",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "background.js": {
+    "file": "assets/background.js-CPlXX8pU.js",
+    "name": "background.js",
+    "src": "background.js",
+    "isEntry": true
+  },
+  "content.js": {
+    "file": "assets/content.js-D7jfq-hq.js",
+    "name": "content.js",
+    "src": "content.js",
+    "isEntry": true
+  },
+  "favicon.png": {
+    "file": "assets/favicon-C8jNuKzW.png",
+    "src": "favicon.png"
+  },
+  "index.html": {
+    "file": "assets/index.html-_0Gelfva.js",
+    "name": "index.html",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/pages/login.tsx",
+      "src/pages/Signup.tsx",
+      "src/pages/Dashboard.tsx"
+    ],
+    "css": [
+      "assets/index-5ZqWBh7i.css"
+    ],
+    "assets": [
+      "assets/favicon-C8jNuKzW.png"
+    ]
+  },
+  "src/pages/Dashboard.tsx": {
+    "file": "assets/Dashboard-CM2sYUpy.js",
+    "name": "Dashboard",
+    "src": "src/pages/Dashboard.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_api-BGffLuxB.js"
+    ]
+  },
+  "src/pages/Signup.tsx": {
+    "file": "assets/Signup-vKfoOzjM.js",
+    "name": "Signup",
+    "src": "src/pages/Signup.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_AuthForm-De7KLju5.js",
+      "_api-BGffLuxB.js"
+    ]
+  },
+  "src/pages/login.tsx": {
+    "file": "assets/login-Klv9Kr49.js",
+    "name": "login",
+    "src": "src/pages/login.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_AuthForm-De7KLju5.js",
+      "_api-BGffLuxB.js"
+    ]
+  }
+}
