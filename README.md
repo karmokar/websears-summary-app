@@ -20,13 +20,13 @@ from lightweight extractive algorithms to large language models.
 **AI/ML:** BART, T5, LexRank, TextRank, LSA, Luhn, Ollama (Llama 3.2), GPT-4o
 
 ## Project Structure
-
+```bash
 websears-summary-app/
 ├── client/           # React + TypeScript frontend
 ├── server/           # Node.js/Express backend
 ├── summary_service/  # Python FastAPI summarization microservice
 └── .gitignore
-
+```
 ## Getting Started
 
 ### Prerequisites
@@ -35,7 +35,7 @@ websears-summary-app/
 - Python 3.10+
 - MySQL
 - MongoDB
-- (Optional) [Ollama](https://ollama.com) for local Llama 3.2 inference
+- [Ollama/Qwen](https://ollama.com) for local Llama 3.2 inference
 
 ### Installation
 
