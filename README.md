@@ -11,7 +11,7 @@ from lightweight extractive algorithms to large language models.
 - 🔗 **Shareable conversation links** via token-based public sharing
 - 🌗 **Multi-theme support**
 - 🧩 **Chrome extension** with side panel for quick access
-
+  
 ## Tech Stack
 
 **Frontend:** React, TypeScript, Vite
