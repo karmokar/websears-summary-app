@@ -83,10 +83,6 @@ websears-summary-app/
 
 The app is designed to run on a Linux server with PM2 for process management and Nginx as a reverse proxy.
 
-## License
-
-[Add your license here]
-
 ## Contact
 
 Built by [karmokar](https://github.com/karmokar) and [Tarun](https://github.com/Devil0D)
