@@ -89,4 +89,4 @@ The app is designed to run on a Linux server with PM2 for process management and
 
 ## Contact
 
-Built by [karmokar](https://github.com/karmokar)
+Built by [karmokar](https://github.com/karmokar) and [Tarun](https://github.com/Devil0D)
